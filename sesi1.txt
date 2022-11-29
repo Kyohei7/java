@@ -1,0 +1,50 @@
+Sesi 1
+Java basic :
+
+*Structure :
+  1. Package -> Folder
+     Penulisannya : camelCase
+  2. Import
+  3. Class   -> File
+     Penulisannya : PascalCase
+  4. Methods  -> Function
+     Penulisannya : camelCase
+  5. Attribute -> Variable
+     Penulisannya : 
+     a. ALL_UPPER (penamaan variable yang bersifat static & konstan)
+
+*Variable dan Data Type :
+  1. Primitive
+     -> Tipe Data yang sudah menjadi bawaan dari bahasa pemogramannya
+     -> boolean, byte, short, int, long, float, double, char
+     -> Awalan Huruf Kecil
+  2. Non Primitive (reference-based)
+     -> String dan Reference Based
+     -> Mengikuti Naming dari Class
+     -> Semua object atau class bisa dijadikan sebagai Tipe Data
+ Contoh : 
+    - boolean isActive = true;
+        |         |         |
+     tipedata namaVariable nilaiVariable
+
+*Access Modifier
+ - tingkatan akses dapat digunakan oleh attribute, class & method
+ 
+ Modifier       Class       Package     Subclass        Global
+ Public          ✓             ✓          ✓              ✓
+ Protected       ✓             ✓          ✓              X
+ Default         ✓             ✓          X              X
+ Private         ✓             X          X              X      
+
+*Condition
+ - proses yang memiliki kondisi didalamnya
+ a. if-else statement
+ b. ternary operator
+ c. switch case 
+
+*Looping
+ - proses perulangan di block code tertentu
+ a. For Loop
+ b. While Loop
+ c. Do-while Loop
+ d. Enchanced for Loop (foreach)
